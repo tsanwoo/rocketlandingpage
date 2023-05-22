@@ -832,8 +832,6 @@ main {
 
 footer {
     height: 96px;
-
-
     font-family: Noto Sans TC;
     font-size: 16px;
     font-weight: 400;
@@ -842,5 +840,9 @@ footer {
     text-align: center;
     color: #363636;
     padding: 36px 510px;
+}
+
+.copyright {
+    width: 419px;
 
 }
