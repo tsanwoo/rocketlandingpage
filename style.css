@@ -49,8 +49,9 @@ section {
     background-image: url(../img/banner/banner-bg.png);
 }
 
+
 .container {
-    width: 100%;
+    width: auto;
     height: 100%;
     max-width: 1440px;
     margin: 60px 72px;
@@ -253,6 +254,7 @@ section {
     line-height: 48px;
     letter-spacing: 0.02em;
     text-align: start;
+    margin-bottom: 20px;
 }
 
 .about-en-text {
@@ -263,27 +265,26 @@ section {
     line-height: 36px;
     letter-spacing: 0.02em;
     text-align: start;
+    margin: 68px 116px 0 0;
 }
 
 .about-skill {
-    margin-top: 20px;
-    margin-bottom: 80px;
-    color: #7F94E2;
+    display: flex;
+}
+
+.about-icon {
+    border: 3px solid #7F94E2;
+    border-radius: 70px;
+    padding: 8px 16px;
+
     font-family: Josefin Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: center;
-    display: flex;
-    margin-left: -12px;
-}
-
-.about-icon {
-    border: 2px solid #7F94E2;
-    border-radius: 70px;
-    padding: 8px 16px;
-    margin-left: 12px;
+    color: #7F94E2;
+    margin-right: 24px;
 }
 
 .about-bg-gray {
@@ -678,4 +679,169 @@ main {
 
 .coach-card:hover .cv {
     margin-left: 100px;
+}
+
+/* button */
+
+.sign {
+    width: auto;
+    height: 96px;
+    background-color: #E5EBFF;
+    margin: 80px 182px 0;
+
+
+    border-radius: 16px;
+    padding: 24px 457px;
+
+}
+
+.sign-text {
+    width: 163px;
+    height: 48px;
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    /* text-align: left; */
+}
+
+/* fee & path */
+
+.qa-wrapper {
+    margin: 0 220px;
+}
+
+.train-qa-title {
+
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #363636;
+    border-bottom: 2px solid #E0E0E0;
+    margin-top: 40px;
+
+}
+
+.train-qa {
+    display: flex;
+    margin: 0 32px;
+    /* border: 2px solid black; */
+}
+
+.train-icon {
+    margin: auto 32px;
+}
+
+
+.qa-text {
+    margin: 24px 0;
+
+}
+
+.qa-que {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 8px;
+
+
+}
+
+.qa-ans {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.qa-line {
+    border-bottom: 2px solid #E0E0E0;
+}
+
+/* organizer */
+
+.org-wrapper {
+    background-color: #F0F0F0;
+    height: 312px;
+    padding: 56px 0;
+}
+
+.organizer {
+    display: flex;
+}
+
+.org-logo {
+    width: 196px;
+    height: 148px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 24px 48px;
+    margin: 0 24px 16px 0;
+}
+
+.org-logo-6 {
+    padding: 55px 38px;
+}
+
+.org-logo-k {
+    padding: 34px 18px;
+}
+
+.org-logo-w {
+    padding: 59px 23px;
+}
+
+.org-title {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+
+.org-name {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.org-name-hex {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+/* footer */
+
+footer {
+    height: 96px;
+
+
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #363636;
+    padding: 36px 510px;
+
 }
