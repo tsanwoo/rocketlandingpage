@@ -659,11 +659,10 @@ main {
 
 }
 
-
+/* 
 .cv {
-    /* display: none; */
-
-}
+    display: none; 
+} */
 
 .cv-hover {
     display: none;
