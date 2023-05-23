@@ -14,17 +14,27 @@ body {
     position: relative;
 }
 
-.news {
-    font-family: 'Josefin sans';
-    display: flex;
-    height: 64px;
+.banner {
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
     width: 100%;
+}
+
+
+.news {
+    display: flex;
     padding: 12px 8px;
     margin: 8px 8px;
-    font-weight: 700;
+    font-family: Josefin Sans;
     font-size: 16px;
-    line-height: 150%;
+    font-weight: 700;
+    line-height: 24px;
     letter-spacing: 0.02em;
+
+
 }
 
 /*-----card-----*/
@@ -45,8 +55,9 @@ section {
     align-items: center;
 }
 
+
 .hero {
-    background-image: url(../img/banner/banner-bg.png);
+    background-image: url(img/banner/banner-bg.png);
 }
 
 
