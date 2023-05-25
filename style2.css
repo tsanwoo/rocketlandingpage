@@ -68,8 +68,8 @@ section {
     max-width: 1440px;
     margin: 60px 72px;
 
-    border: 2px solid #000;
-    /* background-color: rgba(241, 241, 206, 0.961); */
+    /*border: 2px solid #000;
+    background-color: rgba(241, 241, 206, 0.961); */
 }
 
 .card-wrapper {
@@ -172,13 +172,25 @@ section {
     height: 540px;
 }
 
-.map-bk {
-    background-color: #FFFFFF;
+.space-img-border {
     height: 420px;
     width: 636px;
     border-radius: 16px;
+    background-color: #FFFFFF;
     padding: 12px;
+
 }
+
+
+.map-bk {
+    background-color: #FFFFFF;
+    height: 396px;
+    width: 612px;
+    border-radius: 16px;
+
+    background-image: url(img/map/map-lg.png);
+}
+
 
 .space-box {
     display: flex;
@@ -281,7 +293,18 @@ section {
     margin-bottom: 36px;
 }
 
+.area-lg-pic {}
+
+.area-sm-pic {
+    display: none;
+}
+
+.area-pic div {
+    background-image: url(img/space/instruction-discuss-lg.png)
+}
+
 .area-pic-mid {
+    order: 10;
     background-color: #FFFFFF;
     border: 2px solid #cdcdcd;
     height: 388px;
@@ -300,10 +323,20 @@ section {
 }
 
 .area-intro-mid {
-    margin-right: 40px;
+    order: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    color: #757575;
+    font-family: Josefin Sans, Noto Sans TC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    /* margin-bottom: 20px;
+    margin-right: 40px; */
 }
 
 .area-intro-title {
@@ -321,33 +354,13 @@ section {
     color: #757575;
     height: 96px;
     width: 494px;
-    font-family: Noto Sans TC, Josefin Sans;
+    font-family: Josefin Sans, Noto Sans TC;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
 
-    /* font-family: Noto Sans TC;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-     
-    font-family: Josefin Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left;
-
-    font-family: Josefin Sans;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    text-align: left; */
 }
 
 
@@ -374,7 +387,7 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    /* background-color: rgb(200, 234, 234); */
+    background-color: rgb(200, 234, 234);
 }
 
 .service-box {
@@ -448,7 +461,7 @@ section {
     border-radius: 12px;
     border: 2px solid #363636;
     padding: 16px;
-    margin: 60px 0 25px 190px;
+    margin: 60px 0 25px 100px;
 
     font-family: Noto Sans TC;
     font-size: 15px;
@@ -459,6 +472,23 @@ section {
 
 }
 
+.tri {
+    width: 0;
+    height: 0;
+    border: 8px solid;
+    border-color: #363636 transparent transparent transparent;
+    margin-top: 14px;
+}
+
+.tri2 {
+    width: 0;
+    height: 0;
+    border: 7px solid;
+    border-color: #FFFFFF transparent transparent transparent;
+    margin-top: -18px;
+    margin-left: 1px;
+}
+
 .price-title {
 
     font-family: Noto Sans TC;
@@ -467,7 +497,7 @@ section {
     line-height: 54px;
     letter-spacing: 0.02em;
     text-align: left;
-    margin: 0 0 8px 110px;
+    margin: 0 0 8px 0;
 
 }
 
@@ -478,14 +508,15 @@ section {
     line-height: 30px;
     letter-spacing: 0.02em;
     text-align: left;
-    margin: 0 0 36px 110px;
+    margin: 0 0 36px 0px;
 }
 
 
 .price-card-wrapper {
-
+    width: 1086px;
     display: flex;
-    justify-content: space-evenly;
+
+    justify-content: space-between;
 }
 
 .price-card {
@@ -532,8 +563,6 @@ section {
     line-height: 30px;
     letter-spacing: 0.02em;
     text-align: left;
-
-
     /* border: 1px solid #000; */
 }
 
@@ -544,6 +573,436 @@ section {
 }
 
 .price-check-wrapper {
-    margin-left: -125px;
+    margin-right: 130px;
+
+}
+
+mark {
+    background-color: #ffd887;
+    line-height: 10px;
+}
+
+/* 表單 */
+button {
+    width: 1075px;
+    height: 96px;
+    background-color: #F5F1FF;
+
+    font-family: Noto Sans TC;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    border: 2px solid #363636;
+    border-radius: 16px;
+    margin-top: 40px;
+    margin-left: 4px;
+}
+
+footer {
+    height: 96px;
+    width: 1044px;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 36px;
+}
+
+@media (max-width: 767px) {
+
+    .container {
+        width: auto;
+        height: 100%;
+        max-width: 1440px;
+        margin: 0 48px;
+    }
+
+    .card-wrapper {
+        margin: 48px 60px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card {
+        height: 134px;
+        width: 294px;
+        border: 2px solid #E0E0E0;
+        border-radius: 16px;
+        background-color: #FFFFFF;
+        margin-bottom: 46px;
+
+        position: relative;
+    }
+
+    .card-pic {
+        height: 48x;
+        width: 48px;
+        position: absolute;
+        top: -14px;
+        left: 24px;
+
+    }
+
+    .btn-pic {
+        position: absolute;
+        */
+    }
+
+    .card-btn {
+
+        /* width: 60px;
+        height: 60px;
+        border-radius: 50%/50%;
+       position: absolute; 
+        transform: translate(50%);*/
+
+    }
+
+
+    .card-btn-dark {
+        background-color: #BFC9F0;
+
+    }
+
+    .card-btn-light {
+        background-color: #EEE5FF;
+
+    }
+
+    .card-title {
+
+        font-family: Noto Sans TC;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #363636;
+
+        position: absolute;
+        top: 24px;
+        left: 80px;
+
+    }
+
+    .card-en-title {
+        font-family: Josefin Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #9A9A9A;
+
+        position: absolute;
+        top: 80px;
+        left: 28px;
+    }
+
+
+    .card-content {
+        display: none;
+
+    }
+
+    .X {
+        display: none;
+
+    }
+
+
+
+    /* 共同空間 */
+
+    .space {
+        background-color: #EEE5FF;
+        height: 680px;
+    }
+
+
+    .space-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 0;
+        margin: 0 0;
+
+        /* border: .6px solid black; */
+    }
+
+
+    .space-intro {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+
+    }
+
+    .space-en-title {
+        color: #363636;
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin: 36px 0 0 0;
+
+
+
+    }
+
+    .space-ch-title {
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin: 0 0 16px 0;
+
+    }
+
+    .space-intro p {
+        height: 168px;
+        width: 332px;
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin: 0 0 36px 0;
+
+
+    }
+
+    .space-img-border {
+        order: 2;
+        height: 332px;
+        width: 332px;
+        border-radius: 12px;
+        background-color: #FFFFFF;
+        padding: 12px;
+    }
+
+
+    .map-bk {
+        height: 308px;
+        width: 308px;
+        border-radius: 12px;
+        background-image: url(img/map/map-sm.png);
+    }
+
+
+    /* 場域說明area */
+
+    .area-content {
+        height: 2398px;
+        background-color: #FFFFFF;
+        margin: 0 56px;
+
+    }
+
+    .area-title {
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 48px 0 16px 0;
+
+
+    }
+
+    .area-sec-title {
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 12px;
+        margin-right: 400px;
+
+    }
+
+    .area-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .area-pic {
+        background-color: #FFFFFF;
+        border: 2px solid #cdcdcd;
+        height: 222px;
+        width: 332px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+    }
+
+
+    .area-sofa {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .area-pic-mid {
+        order: 1;
+
+        background-color: #FFFFFF;
+        border: 2px solid #cdcdcd;
+        height: 222px;
+        width: 332px;
+        border-radius: 12px;
+        margin-bottom: 24px;
+
+    }
+
+    .area-intro-mid {
+        order: 2;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        color: #757575;
+        height: 105px;
+        width: 332px;
+        font-family: Josefin Sans, Noto Sans TC;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        margin-bottom: 40px;
+
+    }
+
+    .area-intro {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .area-intro-title {
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .area-intro p {
+
+        color: #757575;
+        height: auto;
+        width: 332px;
+        font-family: Josefin Sans, Noto Sans TC;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin-bottom: 40px;
+
+    }
+
+    .area-lg-pic {
+        display: none;
+    }
+
+    .area-sm-pic {
+        display: block;
+    }
+
+
+    /* 服務 */
+
+    .area-service-title {
+        color: #363636;
+        font-family: Josefin Sans, Noto Sans TC;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .service {
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        /* background-color: rgb(211, 153, 163); */
+    }
+
+    .service-box {
+
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .service-icon {
+        height: 120px;
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .service-box p {
+        height: 48px;
+        font-family: Noto Sans TC;
+        color: #757575;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .service-icon-title {
+        color: #363636;
+        font-family: Noto Sans TC;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        margin: 24px 0 8px 0;
+    }
+
+
+
+
+
+
 
 }

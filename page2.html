@@ -52,7 +52,9 @@
     <section class="space">
         <div class="container">
             <div class="space-box">
-                <div class="map-bk"><img src="img/map/map-lg.png" alt="地圖大"></div>
+                <div class="space-img-border">
+                    <div class="map-bk"></div>
+                </div>
 
                 <div class="space-intro">
                     <div class="space-en-title">About Us</div>
@@ -76,7 +78,8 @@
 
             <div class="area-box">
                 <div class="area-pic">
-                    <img src="img/space/instruction-rest-lg.png" alt="休憩區大">
+                    <img class="area-lg-pic" src="img/space/instruction-rest-lg.png" alt="休憩區大">
+                    <img class="area-sm-pic" src="img/space/instruction-rest-sm.png" alt="休憩區小">
                 </div>
 
                 <div class="area-intro">
@@ -87,30 +90,38 @@
             </div>
 
             <div class="area-box">
+                <div class="area-sofa">
+                    <div class="area-intro-mid">
+                        <div class="area-intro-title">\ 舒適沙發討論區 /</div>
+                        <p>如果你有想要與夥伴們討論事情這裡也很適合三、五人一起共同開會討論哦！</p>
+                    </div>
 
-                <div class="area-intro-mid">
-                    <div class="area-intro-title">\ 舒適沙發討論區 /</div>
-                    <p>如果你有想要與夥伴們討論事情這裡也很適合三、五人一起共同開會討論哦！</p>
+                    <div class="area-pic-mid">
+                        <img class="area-lg-pic" src="img/space/instruction-discuss-lg.png" alt="討論區大">
+                        <img class="area-sm-pic" src="img/space/instruction-discuss-sm.png" alt="討論區小">
+                    </div>
+
                 </div>
 
-                <div class="area-pic-mid">
-                    <img src="img/space/instruction-discuss-lg.png" alt="討論區大">
-                </div>
             </div>
 
             <div class="area-box">
                 <div class="area-pic">
-                    <img src="img/space/instruction-freelancer-lg.png" alt="進駐者區大">
+                    <img class="area-lg-pic" src="img/space/instruction-freelancer-lg.png" alt="進駐者區大">
+                    <img class="area-sm-pic" src="img/space/instruction-freelancer-sm.png" alt="進駐者區小">
+
                 </div>
 
                 <div class="area-intro">
                     <div class="area-intro-title">\ 進駐者區域 /</div>
                     <p>我們的目標是凝聚更多開發者，為他們提供一個充滿活力的交流空間。在這裡，開發者可以互相學習、分享，透過交流讓自己的技能和視野得到更快速的成長。我們相信，一個好的環境能夠激發創意，促進專業能力的提升。
+                        <br><br>
+                        我們希望將這樣的場域擴展至高雄，誠摯地邀請您加入我們，一起為開發者打造一個交流與學習的樂園，讓大家在這裡彼此成長，共同推動科技產業的進步。
                     </p>
-                    <br>
-                    <p>我們希望將這樣的場域擴展至高雄，誠摯地邀請您加入我們，一起為開發者打造一個交流與學習的樂園，讓大家在這裡彼此成長，共同推動科技產業的進步。</p>
                 </div>
             </div>
+
+            <!-- 服務 -->
 
             <div class="area-service-title">#服務</div>
             <div class="service">
@@ -166,7 +177,10 @@
     <!-- 進駐費用 -->
     <section class="price">
         <div class="container">
-            <div class="dialog"><b>2023 年</b>為試營運階段，進駐可享有<b>限定優惠價</b>！</div>
+            <div class="dialog"><b>2023 年</b>為試營運階段，進駐可享有<b>限定優惠價</b>！
+                <div class="tri"></div>
+                <div class="tri2"></div>
+            </div>
             <div class="price-title">進駐費用</div>
             <div class="price-content">進駐區域共分兩區塊：<b>培訓區域</b> 及 <b>進駐區域</b>，目前僅接受租期 1 個月以上，單日暫不開放。</div>
 
@@ -178,7 +192,7 @@
                     <div class="price-check-wrapper">
                         <div class="price-check">
                             <img src="img/icon/ic-check-lg.svg" alt="勾">
-                            <div>進駐區域</div>
+                            <div><mark>進駐區域</mark></div>
                         </div>
                         <div class="price-check">
                             <img src="img/icon/ic-check-lg.svg" alt="勾">
@@ -186,11 +200,11 @@
                         </div>
                         <div class="price-check">
                             <img src="img/icon/ic-check-lg.svg" alt="勾">
-                            <div>固定座位</div>
+                            <div><mark>固定座位</mark></div>
                         </div>
                         <div class="price-check">
                             <img src="img/icon/ic-check-lg.svg" alt="勾">
-                            <div>專屬置物櫃</div>
+                            <div><mark>專屬置物櫃</mark></div>
                         </div>
                         <div class="price-check">
                             <img src="img/icon/ic-check-lg.svg" alt="勾">
@@ -207,55 +221,50 @@
                     </div>
                 </div>
 
-                <div class="price-card-wrapper">
-                    <div class="price-card">
-                        <div class="price-card-title">單日使用（暫不提供）</div>
-                        <div class="price-box">$ 300 / Day</div>
 
-                        <div class="price-check-wrapper">
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>培訓區域</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>9:00-18:00 可使用</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>非固定座位</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>共用置物櫃</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>免費無線網路</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>免費咖啡茶水</div>
-                            </div>
-                            <div class="price-check">
-                                <img src="img/icon/ic-check-lg.svg" alt="勾">
-                                <div>原價｜300 / Day</div>
-                            </div>
+
+                <div class="price-card">
+                    <div class="price-card-title">單日使用（暫不提供）</div>
+                    <div class="price-box">$ 300 / Day</div>
+
+                    <div class="price-check-wrapper">
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>培訓區域</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>9:00-18:00 可使用</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>非固定座位</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>共用置物櫃</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>免費無線網路</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>免費咖啡茶水</div>
+                        </div>
+                        <div class="price-check">
+                            <img src="img/icon/ic-check-lg.svg" alt="勾">
+                            <div>原價｜300 / Day</div>
                         </div>
                     </div>
-
-
-
-
-
-
-
                 </div>
-
-
             </div>
+            <button>馬上填表單！</button>
+        </div>
     </section>
-
+    <section>
+        <footer>Copyright © 2023 - Created by 六角學院 / 火箭隊培訓營</footer>
+    </section>
 
 
 

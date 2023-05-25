@@ -857,3 +857,27 @@ footer {
     width: 419px;
 
 }
+
+@media (max-width: 428px) {
+
+    .container {
+        width: auto;
+        height: 100%;
+        max-width: 1440px;
+        margin: 48px 60px;
+
+        /* background-color: rgba(241, 241, 206, 0.961); */
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
